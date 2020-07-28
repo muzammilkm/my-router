@@ -1,0 +1,43 @@
+{
+  "name": "my-router",
+  "version": "1.0.0",
+  "description": "A native browser router for SPA based on ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./docs -p 85"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bort-box/my-router.git"
+  },
+  "keywords": [
+    "native browser",
+    "es6",
+    "ecma script 2015",
+    "single",
+    "plage",
+    "application",
+    "spa",
+    "jq-router",
+    "router",
+    "ui-router",
+    "routes",
+    "controller",
+    "model",
+    "view",
+    "rendering",
+    "view rendering",
+    "nested route",
+    "abstract route"
+  ],
+  "author": "Muzammil Khaja Mohammed",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/bort-box/my-router/issues"
+  },
+  "homepage": "https://github.com/bort-box/my-router#readme",
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  }
+}
