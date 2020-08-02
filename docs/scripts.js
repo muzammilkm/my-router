@@ -34,11 +34,12 @@ class Main {
       test: "Add User"
     };
 
-    Router.init(routes, "home", true).run("my-view");
-    Router.onRouteChanged(function(e, route, param){
-      console.log(arguments);
+    this.state = "some";
+    Router.init(routes, "home", false).run(".my-view");
+    Router.onRouteChanged((route, param) => {
+      console.log("Route Changed", this.state, route, param);
     });
-    //Router.go("home");
+    Router.go("home");
   }
 }
 

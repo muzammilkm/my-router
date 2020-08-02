@@ -1,4 +1,4 @@
-import { RouterExpr } from "./../services/router-expr.js";
+import { RouterExpr } from "./router-expr.js";
 
 class Route {
   constructor(name, routesData, isCacheTemplate) {
@@ -8,6 +8,7 @@ class Route {
     this.templateUrl = "";
     this.url = "";
     this.urlExpr = "";
+    this.resolve = null;
 
     Object.assign(this, routesData[name]);
     this.name = name;
